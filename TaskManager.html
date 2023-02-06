@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>replit</title>
+  <link href="style.css" rel="stylesheet" type="text/css" />
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css"
+    integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <style>
+    table {
+      border-collapse: collapse;
+      width: 100%;
+    }
+
+    th,
+    td {
+      padding: 8px;
+      text-align: left;
+      border-bottom: 1px solid #ddd;
+    }
+
+    tbody tr:hover {
+      background-color: coral;
+    }
+  </style>
+</head>
+
+<body>
+  <h1>Task Manager</h1>
+  <form>
+    <label>Enter A Task Here:</label>
+    <input placeholder="Task">
+    <br>
+    <label>Enter A Due Date:</label>
+    <input type="datetime-local" id="time-due">
+    <br>
+
+
+
+
+
+    <Button type='submit' onClick={addTodo} variant="contained" color="primary">Add Task</Button>
+  </form>
+
+  <table class="table">
+    <thead>
+      <tr>
+        <th scope="col">Task</th>
+        <th scope="col">Due Date</th>
+        <th scope="col">Posted By</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <th scope="row">Code Main Website</th>
+        <td>2/4/2023 7:00PM</td>
+        <td>Barry</td>
+        <td><button type="button" class="btn btn-danger btn-sm">Delete</button>
+        </td>
+
+      </tr>
+      <tr>
+        <th scope="row">Go To Staff Meeting</th>
+        <td>2/1/2023 9:00PM</td>
+        <td>Joe</td>
+        <td><button type="button" class="btn btn-danger btn-sm">Delete</button>
+        </td>
+      </tr>
+      <tr>
+        <th scope="row">Fix Bug On Website</th>
+        <td>2/1/2023 8:00PM</td>
+        <td>Larry</td>
+        <td><button type="button" class="btn btn-danger btn-sm">Delete</button>
+        </td>
+
+      </tr>
+      <tr>
+        <th scope="row">Code Main Website</th>
+        <td>2/4/2023 7:00PM</td>
+        <td>Barry</td>
+        <td><button type="button" class="btn btn-danger btn-sm">Delete</button>
+        </td>
+
+      </tr>
+      <tr>
+        <th scope="row">Go To Staff Meeting</th>
+        <td>2/1/2023 9:00PM</td>
+        <td>Joe</td>
+        <td><button type="button" class="btn btn-danger btn-sm">Delete</button>
+        </td>
+      </tr>
+      <tr>
+        <th scope="row">Fix Bug On Website</th>
+        <td>2/1/2023 8:00PM</td>
+        <td>Larry</td>
+        <td><button type="button" class="btn btn-danger btn-sm">Delete</button>
+        </td>
+
+      </tr>
+      <tr>
+        <th scope="row">Code Main Website</th>
+        <td>2/4/2023 7:00PM</td>
+        <td>Barry</td>
+        <td><button type="button" class="btn btn-danger btn-sm">Delete</button>
+        </td>
+
+      </tr>
+      <tr>
+        <th scope="row">Go To Staff Meeting</th>
+        <td>2/1/2023 9:00PM</td>
+        <td>Joe</td>
+        <td><button type="button" class="btn btn-danger btn-sm">Delete</button>
+        </td>
+
+      </tr>
+      <tr>
+        <th scope="row">Fix Bug On Website</th>
+        <td>2/1/2023 8:00PM</td>
+        <td>Larry</td>
+        <td><button type="button" class="btn btn-danger btn-sm">Delete</button>
+        </td>
+
+      </tr>
+      <tr>
+        <th scope="row">Code Main Website</th>
+        <td>2/4/2023 7:00PM</td>
+        <td>Barry</td>
+        <td><button type="button" class="btn btn-danger btn-sm">Delete</button>
+        </td>
+
+      </tr>
+      <tr>
+        <th scope="row">Go To Staff Meeting</th>
+        <td>2/1/2023 9:00PM</td>
+        <td>Joe</td>
+        <td><button type="button" class="btn btn-danger btn-sm">Delete</button>
+        </td>
+
+      </tr>
+      <tr>
+        <th scope="row">Fix Bug On Website</th>
+        <td>2/1/2023 8:00PM</td>
+        <td>Larry</td>
+        <td><button type="button" class="btn btn-danger btn-sm">Delete</button>
+        </td>
+      </tr>
+
+    </tbody>
+  </table>
+
+
+
+  </div>
+</body>
+
+</html>
